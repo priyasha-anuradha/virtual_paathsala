@@ -1,0 +1,78 @@
+[debug] [2020-06-05T09:17:01.020Z] ----------------------------------------------------------------------
+[debug] [2020-06-05T09:17:01.023Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sushravya.poojary\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-06-05T09:17:01.023Z] CLI Version:   6.5.2
+[debug] [2020-06-05T09:17:01.023Z] Platform:      win32
+[debug] [2020-06-05T09:17:01.023Z] Node Version:  v10.13.0
+[debug] [2020-06-05T09:17:01.031Z] Time:          Fri Jun 05 2020 14:47:01 GMT+0530 (India Standard Time)
+[debug] [2020-06-05T09:17:01.031Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-06-05T09:17:01.051Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-05T09:17:01.052Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sushravya.poojary\Virtuval PataShala\virtual_paathsala-priyasha-anuradha-patch-1
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-06-05T09:17:21.187Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-05T09:17:21.187Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-05T09:17:22.132Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-05T09:17:22.179Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2020-06-05T09:17:22.832Z] Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1049:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:631:8)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
+[debug] [2020-06-05T09:17:31.863Z] ----------------------------------------------------------------------
+[debug] [2020-06-05T09:17:31.865Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sushravya.poojary\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-06-05T09:17:31.865Z] CLI Version:   6.5.2
+[debug] [2020-06-05T09:17:31.865Z] Platform:      win32
+[debug] [2020-06-05T09:17:31.865Z] Node Version:  v10.13.0
+[debug] [2020-06-05T09:17:31.872Z] Time:          Fri Jun 05 2020 14:47:31 GMT+0530 (India Standard Time)
+[debug] [2020-06-05T09:17:31.872Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-06-05T09:17:31.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-05T09:17:31.893Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sushravya.poojary\Virtuval PataShala\virtual_paathsala-priyasha-anuradha-patch-1
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-06-05T09:18:03.747Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2020-06-05T09:18:04.336Z] Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1049:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:631:8)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
